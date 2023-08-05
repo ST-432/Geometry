@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2023-08-04T12:57:56.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="niwg06C_fyNGzPJJCeUO" version="21.6.6" type="device">
+  <diagram name="ページ1" id="EfCaZBDqxKMqlyafgYrC">
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-1" value="&lt;h1&gt;目的&lt;/h1&gt;&lt;p&gt;2Dシューティングなどを作るときに幾何学的な模様の知識があると便利そうなので練習としてPendulumWaveというものを作成してみる&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="20" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-2" value="座標(0.0)を中心に半径が違う円の演習を移動する球を複数個作りそれを線でつなぎ動かしてみる。&lt;br&gt;球の個数は設定できるようにし、等間隔になるようにオブジェクトを生成する(スクリプトで)&lt;br&gt;minの演習とMaxの演習を設定できるようにする。&lt;br&gt;色の設定はminからMaxにかけて赤色を強めるように設定&lt;br&gt;球が動く速度は何かしらの法則に基づいて内＜外になるようにする" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="150" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="140" width="490" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-4" value="Max" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="585" y="345" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-6" value="min" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="345" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gG-tT-A1oMAskTK8UPxz-9" target="gG-tT-A1oMAskTK8UPxz-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gG-tT-A1oMAskTK8UPxz-16" target="gG-tT-A1oMAskTK8UPxz-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="452" y="212" as="sourcePoint" />
+            <mxPoint x="600" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="585" y="345" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gG-tT-A1oMAskTK8UPxz-15" target="gG-tT-A1oMAskTK8UPxz-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="452" y="212" as="sourcePoint" />
+            <mxPoint x="589" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="555" y="315" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gG-tT-A1oMAskTK8UPxz-14" target="gG-tT-A1oMAskTK8UPxz-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="452" y="212" as="sourcePoint" />
+            <mxPoint x="559" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="525" y="285" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gG-tT-A1oMAskTK8UPxz-13" target="gG-tT-A1oMAskTK8UPxz-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="452" y="212" as="sourcePoint" />
+            <mxPoint x="529" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="495" y="255" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gG-tT-A1oMAskTK8UPxz-12" target="gG-tT-A1oMAskTK8UPxz-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="452" y="212" as="sourcePoint" />
+            <mxPoint x="499" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="465" y="225" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gG-tT-A1oMAskTK8UPxz-3" target="gG-tT-A1oMAskTK8UPxz-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="452" y="212" as="sourcePoint" />
+            <mxPoint x="469" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG-tT-A1oMAskTK8UPxz-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="435" y="195" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
